@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+<div class="welcometitle"> Welcome to PosTin!</div>
+<div class="checkdetails">Please check your details and preferences are correct below! <br />If not, please update your JPA via the link below and come back to us!</div>
+</br>
+<div class="profiletitle">Rank and Name:</br></div>
+<div class="profileuser">Cpl Daniel Johnson</br></div>
+<div class="profiletitle">Service No:</br></div>
+<div class="profileuser">30000123</br></div>
+<div class="profiletitle">1st Location Preference:</br></div>
+<div class="profileuser">County|North Yorkshire</br></div>
+<div class="profiletitle">2nd Location Preference:</br></div>
+<div class="profileuser">County|Shropshire</br></div>
+<div class="profiletitle">1st Job Preference:</br></div>
+<div class="profileuser">RAF|CIS|Basic</br></div>
+<div class="profiletitle">2nd Job Preference:</br></div>
+<div class="profileuser">RAF|CIS|Cyber</br></div>
+</br>
+</br>
+        <div class="checkdetails">By clicking 'LETS GO' below you are confirming that the</br> above details are correct and that you agree and will</br> adhere to the User SyOps located <a href="https://hackathonrafsa.blob.core.windows.net/hackathonblob/20210705-POSTIN SyOPs.pdf"</a>HERE.</div>
+        </br>
+        </br>
+        <div class="profilelinks"><a href="https://defencehumanists.org.uk/jpa/"</a><img src="https://hackathonrafsa.blob.core.windows.net/hackathonblob/JPA.png" style="width: 100px; position: absolute; left: 30%" /><a href="{{ url_for('home') }}"><img src="https://hackathonrafsa.blob.core.windows.net/hackathonblob/letsgo.png" style="width: 100px; position: absolute; right: 30%" /></a></div>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        {% endblock %}

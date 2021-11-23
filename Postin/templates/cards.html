@@ -1,0 +1,68 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div id="cardContainer" class="container-fluid" style="color:#000000; clear:both;">
+
+    <div id="carousel-main" style="display:block; height:600px; justify-content:center;" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-main" data-slide-to="1"></li>
+            <li data-target="#carousel-main" data-slide-to="2"></li>
+            <li data-target="#carousel-main" data-slide-to="3"></li>
+            <li data-target="#carousel-main" data-slide-to="4"></li>
+            <li data-target="#carousel-main" data-slide-to="5"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" id="carousel-main-js-target" role="listbox" style="display:block; margin-left:auto; margin:auto; text-align:center;">
+     
+            Javascript writes here
+
+        </div>
+            
+    </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" id ="BTN_Next_Card" href="#carousel-main" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" id ="BTN_Next_Card" href="#carousel-main" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+</div>
+
+<script type="text/javascript">
+
+    //Init
+
+    var container = document.getElementById("carousel-main-js-target");
+
+    //Import cards from route
+
+    var cards = {{ cardSet| safe }};
+
+    //Place First Carousel Item
+
+    container.innerHTML = '<div class="item active" id="Carousel_FirstItem"><div class="card"><div class="card-header">' + cards[0].title + '</div><div class="card-subtitle">' + cards[0].subTitle + '</div><div class="card-body"><img class="middle image card-image"src=' + cards[0].imageURL + '></></div></div>'
+
+    firstItem = document.getElementById("Carousel_FirstItem");
+
+    //Loop to write individual cards with HTML
+    cardNo = 1
+
+    var html = '<div class="item"><div class="card"><div class="card-header">' + cards[cardNo].title + '</div><div class="card-subtitle">' + cards[cardNo].subTitle + '</div><div class="card-body"><img class="middle image card-image"src=' + cards[cardNo].imageURL + '></><div class="card-subtitle">' + cards[cardNo].jobBio + '</div></div></div>'
+    cards.forEach(
+        container.innerHTML = container.innerHTML += html
+    )
+
+    cards.forEach(console.log())
+
+</script>
+
+{% endblock %}
