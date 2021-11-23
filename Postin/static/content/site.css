@@ -1,0 +1,309 @@
+body {
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    width:100%;
+}
+
+
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+
+
+.field-validation-valid {
+    display: none;
+}
+
+
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+
+.navbar-brand {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+
+.navbar-title-image {
+    width: 100%;
+    text-align: center;
+    top: 0px;
+}
+
+
+
+.profile-link {
+    float: right;
+    position: relative;
+    top: -100px;
+    margin-top: 8px;
+}
+
+
+
+    .profile-link img {
+        height: 50%;
+        width: 50%;
+    }
+
+
+
+.navbar-title-image img {
+    height: 100px;
+}
+
+
+
+.navbar-header {
+    height: 150px;
+    width: 100%;
+    clear:both;
+}
+
+
+
+.navbar-inverse {
+    background-color: #ffffff;
+}
+
+.container {
+    height: 150px;
+}
+.ContratsTextMain {
+    text-align: center;
+    font-size: 60px;
+}
+.ContratsText {
+    text-align: center;
+    font-size:40px
+}
+.navbar-title-imag {
+    width: 100%;
+    text-align: center;
+    top: 0px;
+ }
+.navbar-title-imag img {
+    height: 300px;
+}
+.navbar-bran {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.loginblock {
+    display: inline;
+    text-align: center !important;
+}
+
+.center {
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+.welcometitle {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+.checkdetails {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.profilelinks {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    max-height:30px;
+}
+.profilelinks img {
+    max-height: 150px;
+    margin: auto;
+}
+.loginbutton img {
+    margin:auto;
+    padding: 10px;
+    max-width: 100px;
+}
+
+.profiletitle {
+    text-align: left;
+    font-size: 23px;
+    margin-left: 24%;
+}
+
+.profileuser {
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 24%;
+}
+
+.Job {
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 24%;
+}
+
+.yes {
+    max-height: 150px;
+    margin: auto;
+}
+
+.no {
+    max-height: 150px;
+    margin: auto;
+}
+
+.cardstext {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+.cardstitles {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 24%;
+
+}
+
+.jobtitles {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+.cardpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.cardpicover {
+    width: 100%;
+    text-align: center;
+    top: 0px;
+}
+
+.cardpicover img {
+     height: 440px;
+ }
+
+.cardlocation {
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 24%;
+}
+.ratingpic img {
+    max-height: 50px;
+    margin-left: 24%;
+}
+
+.cmask {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+.cmheader {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+.cmjob {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+.cmstat {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+.table {
+    font-size: 25px;
+    margin-left: 8%;
+}    
+
+
+
+.tableyes img {
+    max-width: 30px;
+    padding: 1px;
+}
+
+.cmpostin {
+    margin-left: 6%;
+}
+
+.cmpostin img {
+    max-height: 150px;
+}
+
+.cmdropdown {
+    margin-left: 8%;
+}
+
+.poshshow {
+    background-color: gold;
+}
+
+.notification{
+    margin-right: 40%;
+}
