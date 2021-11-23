@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<body>
+    <div class="cardlocation">RAF High Wycombe <br /></div>
+    </br>
+    <div class="cardpicover">
+        <div class="cardpic"><img src="https://hackathonrafsa.blob.core.windows.net/hackathonblob/postings/element.jpg" /></div>
+    </div>
+    <div class="jobtitles">
+        </br>
+        <p>Project ELEMENT JNCO</p>
+    </div>
+    <div class="cardstitles">
+        Available Aug 21
+    </div>
+    <div class="cardstext">
+        <p>
+            As a super skilled cyber warrior, your job is to look
+            after the hangar floor! There is so many lines on the floor
+            that need looking after and its vital for health and safety
+            that these lines are always visible so must endure thorough
+            sweeping that only a Cyber Warrior can do.
+        </p>
+    </div>
+    <div class="cardstitles">Local Info</div>
+    <div class="cardstext">
+        <p>
+            Around the camp there are so many cool scooters that are
+            never charged up and will also provide an excellent way to
+            burn through your minimum wage. There is a pub on camp which
+            nobody goes to and the local large supermarket is approx 21
+            miles away with no bus service operating from camp.
+        </p>
+    </div>
+    <div class="cardstitles"><p>Gym/Training Facilities</p></div>
+    <div class="ratingpic"><img src="https://hackathonrafsa.blob.core.windows.net/hackathonblob/ratings/4.png" /></div>
+    <div class="cardstitles"><p>Mess</p></div>
+    <div class="ratingpic"><img src="https://hackathonrafsa.blob.core.windows.net/hackathonblob/ratings/5.png" /></div>
+    <div class="cardstitles"><p>Accomdation</p></div>
+    <div class="ratingpic"><img src="https://hackathonrafsa.blob.core.windows.net/hackathonblob/ratings/2.png" /></div>
+    <div class="cardstitles"><p>Local Ammenities</p></div>
+    <div class="ratingpic"><img src="https://hackathonrafsa.blob.core.windows.net/hackathonblob/ratings/5.png" /></div>
+    <div class="profilelinks"><a href="{{ url_for('cards2') }}"</a><img src="https://hackathonrafsa.blob.core.windows.net/hackathonblob/no.png" style="width: 100px; position: absolute; left: 30%" /><a href="{{ url_for('cards2') }}"><img src="https://hackathonrafsa.blob.core.windows.net/hackathonblob/yes.png" style="width: 100px; position: absolute; right: 30%" /></a></div>
+
+</body>
+</html>
+
+
+{% endblock %}
